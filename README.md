@@ -1,5 +1,5 @@
 # Sites
-Colocando em prática conteúdo aprendido;
+Colocando em prática conteúdo aprendido,
 
 HTML, CSS e Bootstrap
 
