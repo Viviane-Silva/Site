@@ -1,2 +1,7 @@
-# Site
-Colocando em prática conteúdo aprendido
+# Sites
+Colocando em prática conteúdo aprendido;
+
+HTML, CSS e Bootstrap
+
+
+Vários projetos :)
