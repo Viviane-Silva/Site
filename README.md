@@ -4,4 +4,4 @@ Colocando em prática conteúdo aprendido;
 HTML, CSS e Bootstrap
 
 
-Vários projetos :)
+Alguns projetos :)
