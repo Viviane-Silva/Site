@@ -114,3 +114,41 @@ body{
 .navbar-toggler{
     font-size: 1.5em;
 }
+/* BANNERS */
+#banners-container{
+    padding: 0;
+}
+.carousel-caption{
+    bottom: 5em;
+    padding: 1em;
+    left: 12%;
+    right: 12%;
+}
+.carousel-caption h5{
+    font-size: 1.8em;
+}
+@media (min-width:868px){
+    #slider .carousel-item, #slider img{
+        height: auto;
+        width: 1300px;
+    }
+    .carousel-caption{
+        left: 23%;
+        right: 23%;
+    }
+}
+@media (mix-width:620px){
+    #slider .carousel-item, #slider img{
+        height: auto;
+        width: 800px;
+    }
+    .navbar-brand{
+        text-align: center;
+    }
+    
+}
+@media(max-width:410px){
+    .carousel-caption{
+        bottom:3em
+    }
+}
