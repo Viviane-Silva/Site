@@ -286,7 +286,7 @@ body{
 }
 #new-products-banner h3{
     font-weight: bold;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 #new-products .col-md-4{
     padding: 0;
@@ -295,4 +295,34 @@ body{
     height: 140px;
     width: 90px;
     margin: 2em auto;
+}
+/* GALLERY */
+#gallery .image-container{
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    cursor: pointer;
+    transition: .5s;
+    border: 2px solid #101010;
+}
+#gallery .row-center{
+    justify-content: center;
+}
+#gallery .image-container:hover{
+    border-color: #c09578;
+}
+#insta1{
+    background-image: url('/projeto-2/img/insta1.jpg');
+}
+#insta2{
+    background-image: url('/projeto-2/img/insta2.jpg');
+}
+#insta3{
+    background-image: url('/projeto-2/img/insta3.jpg');
+}
+#insta4{
+    background-image: url('/projeto-2/img/insta4.jpg');
+}
+#insta5{
+    background-image: url('/projeto-2/img/insta5.jpg');
 }
