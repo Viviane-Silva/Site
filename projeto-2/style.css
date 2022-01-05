@@ -237,3 +237,62 @@ body{
 .card .card-category{
     font-size: 0.8em;
 }
+.card .card-text{
+    margin: 2em 0;
+    font-weight: bold;
+}
+.btn{
+    background-color: transparent;
+    border-color: #c09578;
+}
+.btn:hover{
+    background-color: #c09578;
+    border-color: #c09578;
+}
+/*  BOTTOM BANNER */
+#bottom-banner{
+    background-color: #101010;
+    padding: 6em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+#bottom-banner .offer-subtitle, 
+#bottom-banner h2{
+    font-weight: bold;
+}
+#bottom-banner .btn{
+    margin: 2em;
+    font-weight: bold;
+    padding: 1em;
+}
+#bottom-banner img{
+    max-width: 175px;
+}
+@media(min-width:768px){
+    #bottom-banner h2{
+        font-size: 5em;
+    }
+}
+/* NEW PRODUCTS */
+#new-products{
+    margin-bottom: 5em;
+}
+#new-products-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+}
+#new-products-banner h3{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+#new-products .col-md-4{
+    padding: 0;
+}
+#new-products .card img{
+    height: 140px;
+    width: 90px;
+    margin: 2em auto;
+}
