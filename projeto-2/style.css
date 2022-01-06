@@ -372,6 +372,7 @@ body{
 }
 #footer-center{
     border-left: 1px solid #626262;
+    border-right: 1px solid #626262;
 }
 #footer-center .store-phone{
     color: #c09578;
@@ -405,4 +406,9 @@ body{
 }
 #social-container i:hover{
     color: #c09578;
+}
+/* COPY */
+#copy-container{
+    text-align: center;
+    padding: 30px;
 }
