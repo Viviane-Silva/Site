@@ -327,6 +327,9 @@ body{
 #insta5{
     background-image: url('/projeto-2/img/insta5.jpg');
 }
+#insta6{
+    background-image: url('/projeto-2/img/insta6.jpg');
+}
 /* \FOOTER */
 #footer-links-container{
     border-bottom: 1px solid #626262;
@@ -352,7 +355,7 @@ body{
 }
 @media(min-width:768px){
     #footer-links-container li{
-        text-align: left;
+        text-align: center;
     }
 }
 #footer-links-container a{
