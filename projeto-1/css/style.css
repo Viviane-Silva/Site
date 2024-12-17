@@ -29,6 +29,9 @@ a,i{
     background-color: #333;
     color: #fff;
 }
+.btn:focus {
+    outline: none; /* Remove a borda azul ao focar */
+}
 
 
 /* HEADER */
@@ -79,11 +82,44 @@ a,i{
     bottom: 25px;
 }
 
+/*  MODAL */
+.modal {
+    display: none; /* Escondido por padrão */
+    position: fixed; /* Fica fixo na tela */
+    z-index: 1; /* Fica acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Habilita rolagem se necessário */
+    background-color: rgb(0,0,0); /* Cor de fundo */
+    background-color: rgba(0,0,0,0.4); /* Fundo com transparência */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Margem superior e centraliza */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Largura do modal */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 /*  GALLERY */
-/* #img1{
-    background-image: url("/projeto-1/img/g_1.jpg");
-} */
+
 #img2{
     background-image: url("/projeto-1/img/g_2.jpg");
 }
